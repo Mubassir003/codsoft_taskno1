@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    height:100vh;
+    background-color:linear-gradient(rgb(0,0,0,70),rgb(0,0,0,70));
+    background-image: url("page.png");
+}
+.header{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 0px;
+
+}
+ul{
+    list-style: none;
+    margin-right: 50px;
+
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    font-size:17px;
+    text-decoration: none;
+    color:#fff;
+    padding:8px 25px;
+    transition:0.6s ease;
+
+
+}
+ul li a:hover{
+    background-color:black;
+    
+}
+.logo{
+    margin-left: 50px;
+
+}
+.logo h2{
+    color:#fff;
+    font-size: 35px;
+}
+.hero-section{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-58%,-50%) ;
+    text-align:center;
+}
+.hero-section h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+    color:#fff;
+    letter-spacing: 1.5px;
+}
+.hero-section p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:19px;
+    margin-top:20px;
+    color:rgb(244, 8, 8);
+}
+.button{
+    margin-top:30px;
+
+}
+.button .btn{
+    text-decoration: none;
+    background-color:#fff;
+    display:inline-block;
+    border:1px solid #fff;
+    font-size: 19px;
+    padding :10px 20px;
+    margin:0px 5px;
+    letter-spacing: 1.5px;
+    transition: 0.6s ease;
+
+
+}
+.button .btn:hover{
+    background-color: black;
+}
